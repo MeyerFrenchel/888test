@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-container {
+    position: relative;
+}
+
+.header-info {
+    position: absolute;
+    max-width: 600px;
+    z-index: 4;
+    
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+p {
+    color: #7cf700;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.bonus-text {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+span {
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.grey-text {
+    color: #888;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+
+.btn-outline-success {
+    margin-top: 20px;
+    color: #7cf700;
+    border-color: #7cf700;
+    border-radius: 50px;
+}
+.container-payment {
+    margin: 0 auto;
+    background-color: #f8f5f1;
+    border: 1px solid #999;
+}
+.banking-img {
+    max-width: 80%;
+}
+.payment {
+    margin: 0 auto;
+    text-align: center;
+}
+.promotions .container-fluid {
+    text-align: center;
+    margin-top: 5%;
+}
+.promotions .grey-text{
+    font-size: 1rem;
+    padding: 2px 22%;
+}
+.promo-text {
+    background: black;
+    color: white;
+}
+.promo-text span {
+    font-size: 1rem;
+}
+section a {
+    position: absolute;
+    right: 10px;
+}
+footer {
+    background: #151515;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+footer p {
+    color: white;
+    font-size: 1rem;
+}
+.api {
+    background: black;
+    color: #7cf700;
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
